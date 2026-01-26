@@ -1,22 +1,19 @@
 def bin_search(val, lis, n):
     a = 0
     b = n-1
-    x = a
-    if lis[a] > val:
-        return a
-    if lis[b] < val:
-        return b
+
+    ans = -1
     
-    while a>b:
-        x = (a+b)//2
-        if lis[x] > val and lis[x-1] < val:
-            return x
-        elif lis[x] < val:
-            a = x
+    while a<=b:
+        x = a + (b-a)//2
+
+        if lis[x] <= val:
+            ans = x
+            a = x + 1
         else:
-            b = x
-    else:
-        return a
+            b = x - 1
+
+    return ans+1
     
 
 
@@ -51,9 +48,10 @@ for _ in range(int(input())):
         level = bin_search(s_count, b_cum, n)
     
         ans = max(ans, (level)*x)
+
         if ans == level*x:
             final_x = x
             final_level = level
-    print()
-    print("---------")
+
     print(ans)
+
