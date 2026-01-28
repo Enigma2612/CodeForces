@@ -4,7 +4,7 @@ def bin_search(val, lis, n):
 
     ans = -1
     
-    while a<=b:
+    while a <= b:
         x = a + (b-a)//2
 
         if lis[x] <= val:
@@ -55,3 +55,5 @@ for _ in range(int(input())):
 
     print(ans)
 
+
+#Binary search working, but still TLE
