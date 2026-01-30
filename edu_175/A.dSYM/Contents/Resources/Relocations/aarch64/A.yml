@@ -1,0 +1,15 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/shauryagupta/Desktop/Python Stuff/CodeForces/edu_175/A'
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x100003B50, symSize: 0x12C }
+  - { offsetInCU: 0x383E, offset: 0x383E, size: 0x8, addend: 0x0, symName: __ZNSt3__13minB8ue170006IiEERKT_S3_S3_, symObjAddr: 0x12C, symBinAddr: 0x100003C7C, symSize: 0x2C }
+  - { offsetInCU: 0x44BC, offset: 0x44BC, size: 0x8, addend: 0x0, symName: __ZNSt3__14endlB8ue170006IcNS_11char_traitsIcEEEERNS_13basic_ostreamIT_T0_EES7_, symObjAddr: 0x184, symBinAddr: 0x100003CD4, symSize: 0x58 }
+  - { offsetInCU: 0x44FC, offset: 0x44FC, size: 0x8, addend: 0x0, symName: __ZNSt3__13minB8ue170006IiNS_6__lessIvvEEEERKT_S5_S5_T0_, symObjAddr: 0x1DC, symBinAddr: 0x100003D2C, symSize: 0x54 }
+  - { offsetInCU: 0x459B, offset: 0x459B, size: 0x8, addend: 0x0, symName: __ZNSt3__19use_facetB8ue170006INS_5ctypeIcEEEERKT_RKNS_6localeE, symObjAddr: 0x2F0, symBinAddr: 0x100003E40, symSize: 0x2C }
+  - { offsetInCU: 0x6F63, offset: 0x6F63, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x100003B50, symSize: 0x12C }
+  - { offsetInCU: 0x7062, offset: 0x7062, size: 0x8, addend: 0x0, symName: __ZNSt3__113basic_ostreamIcNS_11char_traitsIcEEElsB8ue170006EPFRS3_S4_E, symObjAddr: 0x158, symBinAddr: 0x100003CA8, symSize: 0x2C }
+  - { offsetInCU: 0x70A8, offset: 0x70A8, size: 0x8, addend: 0x0, symName: __ZNKSt3__16__lessIvvEclB8ue170006IiiEEbRKT_RKT0_, symObjAddr: 0x230, symBinAddr: 0x100003D80, symSize: 0x34 }
+  - { offsetInCU: 0x70FA, offset: 0x70FA, size: 0x8, addend: 0x0, symName: __ZNKSt3__19basic_iosIcNS_11char_traitsIcEEE5widenB8ue170006Ec, symObjAddr: 0x264, symBinAddr: 0x100003DB4, symSize: 0x8C }
+  - { offsetInCU: 0x7166, offset: 0x7166, size: 0x8, addend: 0x0, symName: __ZNKSt3__15ctypeIcE5widenB8ue170006Ec, symObjAddr: 0x31C, symBinAddr: 0x100003E6C, symSize: 0x38 }
+...
